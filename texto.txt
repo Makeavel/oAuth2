@@ -1,0 +1,4 @@
+
+//estudar authorization codeflow
+
+//link: https://www.ory.sh/docs/oauth2-oidc/client-credentials

@@ -16,7 +16,7 @@ public class SecurityConfig{
     SecurityFilterChain filterChain(HttpSecurity http) throws Exception{
         return http.
                 authorizeHttpRequests(auth -> {
-                    auth.requestMatchers("/api/**").permitAll();
+                    auth.requestMatchers("/").permitAll();
                     auth.requestMatchers("/favicon.ico").permitAll();
                     auth.anyRequest().authenticated();
                 })
